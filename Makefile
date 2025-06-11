@@ -43,7 +43,7 @@ define Package/shadowsocks-libev
 	SECTION:=net
 	CATEGORY:=Network
 	TITLE:=Lightweight Secured Socks5 Proxy
-	URL:=https://github.com/shadowsocks/shadowsocks-libev
+	URL:=https://github.com/animer3009/shadowsocks-libev-nocrypto
 	DEPENDS:=+libpthread \
 		+!SHADOWSOCKS_WITH_EV:libev \
 		+!SHADOWSOCKS_WITH_PCRE:libpcre \
